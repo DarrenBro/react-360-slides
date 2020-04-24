@@ -8,13 +8,12 @@ export default class SlideOne extends Component {
     render() {
         return (
             <Text style={styles.greeting}>
-                How to get started; {"\n"}
-                {"\n"} $ react-360 init hello-vr
-                {"\n"} $ cd hello-vr
-                {"\n"} $ npm start{"\n"}
-                {"\n"} Get latest version of Node
-                {"\n"} Download 'Firefox Nightly'
-                {"\n"}(a browser that supports the WebVR API)
+                {"\n"}
+                {"\n"} You add extra views to make them behave more like a ui
+                {"\n"}
+                {"\n"} e.g. Footers / Headers
+                {"\n"}
+                {"\n"}They behave just like these main slides but style sized down
             </Text>
         );
     }
